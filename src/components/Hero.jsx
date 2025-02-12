@@ -15,16 +15,17 @@ export default function Hero() {
             I'm a
             </span> <br/>
             <TypeAnimation   sequence={["Frontend Dev",
-            1000,"Websigner",1000,"consultant",1000]}
+            1000,"Backend Dev",1000]}
             wrapper="span"
             speed={50}
             repeat={Infinity}/>
         </h1>
         <p className='text-white sm:text-lg my-6 lg:text-xl'>
-            My name is Jhon Doe and I have 5+ years experience in web developpement.
+        My name is SANAA ELHAFER, and I have gained hands-on experience in web development through various academic projects during my studies. 
+        I am passionate about creating web applications and continuously improving my skills
         </p>
         <div className='my-8'>
-             <a href='/' className='px-6 py-3 w-full rounded-xl mr-4
+             <a href='sanaa elhafer.pdf' download='sanaa elhafer.pdf' className='px-6 py-3 w-full rounded-xl mr-4
              bg-gradient-to-br from-orange-500 to-pink-500
              text-white '>
                 Download Cv</a>

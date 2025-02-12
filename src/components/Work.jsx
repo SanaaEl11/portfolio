@@ -1,10 +1,10 @@
 import React from 'react'
 import proj1 from '../assets/proj1.png'
-import proj2 from '../assets/proj2.png'
-import proj3 from '../assets/proj3.png'
-import proj4 from '../assets/proj4.png'
-import proj5 from '../assets/proj5.png'
-import proj6 from '../assets/proj6.png'
+import proj2 from '../assets/proj2.jpeg'
+import proj3 from '../assets/proj3.jpeg'
+import proj4 from '../assets/proj4.jpeg'
+import proj5 from '../assets/proj5.jpeg'
+import proj6 from '../assets/proj6.jpeg'
 
 function Work() {
   return (
@@ -22,7 +22,7 @@ function Work() {
                 <div className='opacity-0 group-hover:opacity-90 bg-[gray]/70 absolute inset-0 flex flex-col justify-center'>
                    <span className='text-2xl font-bold text-white tracking-wider'></span>
                   <div className='pt-8 text-center'>
-                    <a href='/'>
+                    <a href='https://travel-and-tour-booking-platform.vercel.app/' target='blank'>
                         <button className='text-center  rounded-lg px-4 py-3 m-2 bg-white
                          text-gray-700 font-bold text-lg'>Live</button>
                     </a>
