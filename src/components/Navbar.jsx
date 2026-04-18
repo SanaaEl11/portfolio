@@ -25,9 +25,10 @@ export default function Navbar() {
 
             <div className={nav ?'fixed h-full left-0 top-0 w-[60%] bg-[#202121] ease-in-out duration-500':
                 'fixed left-[-100%]'}>
-            <h1 className='text-3xl font-bold primary-color m-4'>J.Doe</h1>
+            <h1 className='text-3xl font-bold primary-color m-4'>SANAA.ELHAFER</h1>
                <ul className='p-8 text-2xl'>
-             
+             <li className='p-2'><a href='#education'>Education</a></li>
+                 <li className='p-2'><a href='#certification'>Certification</a></li>
                 <li className='p-2'><a href='#about'>About</a></li>
                 <li className='p-2'><a href='#work'>work</a></li>
                 <li className='p-2'><a href='#contact'>Contact</a></li>

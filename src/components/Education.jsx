@@ -24,7 +24,7 @@ const Education = () => {
   ];
 
   return (
-    <section className="py-20 bg-black text-white border-t border-b border-zinc-900">
+    <section className="py-20 bg-black text-white border-t border-b border-zinc-900"id="education">
       <div className="max-w-6xl mx-auto px-6">
         {/* Heading - exact same style as "My Skills" / "About Me" */}
         <h2 className="text-5xl font-bold text-center mb-16 bg-gradient-to-r from-orange-400 to-pink-500 bg-clip-text text-transparent tracking-tight">
