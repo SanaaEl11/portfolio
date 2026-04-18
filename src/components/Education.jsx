@@ -1,27 +1,30 @@
 // Education.jsx
 import React from "react";
+import { FcGraduationCap } from "react-icons/fc";
+
+
 
 const Education = () => {
   const educationData = [
-    {
-      degree: "Diploma in Digital Development (Fullstack Option)",
-      institution: "ISTA",
-      years: "2023 – 2025",
-      location: "Khémisset, Morocco",
-    },
-    {
-      degree: "Fundamental License in English Studies (Linguistics Option)",
-      institution: "Ibn Tofail University",
-      years: "2019 – 2022",
-      location: "Kenitra, Morocco",
-    },
-    {
-      degree: "Baccalaureate in Physical Sciences",
-      institution: "El Ouazzane High School",
-      years: "2018 – 2019",
-      location: "Khémisset, Morocco",
-    },
-  ];
+  {
+    degree: "Diploma in Full-Stack Digital Development",
+    institution: "ISTA",
+    years: "2023 – 2025",
+    location: "Khemisset, Morocco",
+  },
+  {
+    degree: "Bachelor’s Degree in English Studies (Linguistics Option)",
+    institution: "Ibn Tofail University",
+    years: "2019 – 2022",
+    location: "Kenitra, Morocco",
+  },
+  {
+    degree: "Baccalaureate in Physical Sciences",
+    institution: "El Ouazzane High School",
+    years: "2018 – 2019",
+    location: "Khemisset, Morocco",
+  },
+];
 
   return (
     <section  className="py-20 bg-black text-white border-t border-b border-zinc-900 scroll-mt-[120px]" id="education">
@@ -44,7 +47,7 @@ const Education = () => {
               {/* Icon circle with animation - matches the colored skill icons and hero bear circle */}
               <div className="flex-shrink-0 z-10">
                 <div className="w-20 h-20 bg-gradient-to-br from-orange-400 to-pink-500 rounded-3xl flex items-center justify-center shadow-xl shadow-pink-500/20 transition-all duration-500 group-hover:scale-110 group-hover:rotate-6">
-                  <span className="text-5xl drop-shadow-md">🎓</span>
+                  <span className="text-5xl drop-shadow-md"><FcGraduationCap /></span>
                 </div>
               </div>
 

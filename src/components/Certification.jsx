@@ -38,7 +38,7 @@ const Certification = () => {
             >
               {/* Icon - professional certificate style with gradient, matches skill icon colors */}
               <div className="flex-shrink-0 w-16 h-16 bg-gradient-to-br from-amber-400 to-orange-500 rounded-2xl flex items-center justify-center shadow-lg shadow-orange-500/30 transition-all duration-500 group-hover:rotate-12">
-                <span className="text-4xl drop-shadow-sm">📜</span>
+                <span className="text-4xl drop-shadow-sm"></span>
               </div>
 
               {/* Text content */}
