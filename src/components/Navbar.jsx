@@ -12,6 +12,8 @@ export default function Navbar() {
             
             <h1 className='text-3xl font-bold primary-color ml-4'>SANAA.ELHAFER</h1>
                <ul className='hidden md:flex'>
+                 <li className='p-5'><a href='#education'>Education</a></li>
+                 <li className='p-5'><a href='#certification'>Certification</a></li>
                 <li className='p-5'><a href='#about'>About</a></li>
                 <li className='p-5'><a href='#work'>work</a></li>
                 <li className='p-5'><a href='#contact'>Contact</a></li>
