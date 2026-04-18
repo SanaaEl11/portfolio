@@ -8,7 +8,7 @@ import proj6 from '../assets/proj6.jpeg'
 
 function Work() {
   return (
-    <div  className='max-x-[1200px] mx-auto p-5' id='work'>
+    <div  className='max-x-[1200px] mx-auto p-5 scroll-mt-[120px]' id='work'>
       <div className='pb-8'>
             <p className='text-4xl mb-3 font-bold primary-color'>Work</p>
             <p className='text-gray-400'>Check out some of my recent project</p>

@@ -16,6 +16,7 @@ export default function Navbar() {
                  <li className='p-5'><a href='#certification'>Certification</a></li>
                 <li className='p-5'><a href='#about'>About</a></li>
                 <li className='p-5'><a href='#work'>work</a></li>
+                <li className='p-5'><a href='#skills'>Skills</a></li>
                 <li className='p-5'><a href='#contact'>Contact</a></li>
                </ul>
 
@@ -28,9 +29,10 @@ export default function Navbar() {
             <h1 className='text-3xl font-bold primary-color m-4'>SANAA.ELHAFER</h1>
                <ul className='p-8 text-2xl'>
              <li className='p-2'><a href='#education'>Education</a></li>
-                 <li className='p-2'><a href='#certification'>Certification</a></li>
+                <li className='p-2'><a href='#certification'>Certification</a></li>
                 <li className='p-2'><a href='#about'>About</a></li>
                 <li className='p-2'><a href='#work'>work</a></li>
+                <li className='p-2'><a href='#skills'>Skills</a></li>
                 <li className='p-2'><a href='#contact'>Contact</a></li>
                </ul> 
             </div>
