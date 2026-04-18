@@ -1,6 +1,6 @@
 // Certification.jsx
 import React from "react";
-
+import certificate from '../assets/certificate.png'
 const Certification = () => {
   const certificationsData = [
     {
@@ -37,13 +37,13 @@ const Certification = () => {
               className="group bg-zinc-900 hover:bg-zinc-800 border border-zinc-800 hover:border-orange-400 rounded-3xl p-8 transition-all duration-500 hover:shadow-2xl hover:shadow-pink-500/10 flex flex-col items-center text-center md:text-left md:flex-row md:items-start gap-6"
             >
               {/* Icon - professional certificate style with gradient, matches skill icon colors */}
-              <div className="flex-shrink-0 w-16 h-16 bg-gradient-to-br from-amber-400 to-orange-500 rounded-2xl flex items-center justify-center shadow-lg shadow-orange-500/30 transition-all duration-500 group-hover:rotate-12">
-                <span className="text-4xl drop-shadow-sm"></span>
+              <div className="flex-shrink-0 w-16 h-16  rounded-2xl flex items-center justify-center shadow-lg transition-all duration-500 group-hover:rotate-12">
+                <span className="text-4xl drop-shadow-sm"> <img src={certificate} alt="certificate" /></span>
               </div>
 
               {/* Text content */}
               <div className="flex-1">
-                <h3 className="text-2xl font-semibold text-white group-hover:text-pink-400 transition-colors">
+                <h3 className="text-2xl font-semibold text-white  transition-colors">
                   {cert.title}
                 </h3>
                 <p className="text-orange-300 mt-2 text-lg font-medium">
