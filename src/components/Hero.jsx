@@ -25,7 +25,7 @@ export default function Hero() {
         I am passionate about creating web applications and continuously improving my skills
         </p>
         <div className='my-8'>
-             <a href='sanaa elhafer.pdf' download='sanaa elhafer.pdf' className='px-6 py-3 w-full rounded-xl mr-4
+             <a href='/sanaaElhafer.pdf' download='sanaaElhafer.pdf' className='px-6 py-3 w-full rounded-xl mr-4
              bg-gradient-to-br from-orange-500 to-pink-500
              text-white '>
                 Download Cv</a>
